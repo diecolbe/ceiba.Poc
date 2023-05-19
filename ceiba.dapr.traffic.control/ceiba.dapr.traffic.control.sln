@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ceiba.dapr.traffic.control.VehicleRegistrationService", "ceiba.dapr.traffic.control.VehicleRegistrationService\ceiba.dapr.traffic.control.VehicleRegistrationService.csproj", "{88D2CCFC-B2AA-4FAC-80E7-A400B411E873}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ceiba.dapr.traffic.control.Infraestructure", "ceiba.dapr.traffic.control.Infraestructure\ceiba.dapr.traffic.control.Infraestructure.csproj", "{CCA063BA-859B-4B7B-B914-71E89EDAB88C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ceiba.dapr.traffic.control.Domain", "ceiba.dapr.traffic.control.Domain\ceiba.dapr.traffic.control.Domain.csproj", "{208DAD1A-66C8-4DDF-A637-C8912BED03C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "k8s", "k8s", "{D9D8ED28-E353-4D69-B3CE-FDE7DD4F83A8}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\XM_SUICC_BACK_NOTIFICACIONES\k8s-notifications-worker\deployment.yml = ..\..\XM_SUICC_BACK_NOTIFICACIONES\k8s-notifications-worker\deployment.yml
+		..\..\XM_SUICC_BACK_NOTIFICACIONES\k8s-notifications-worker\service.yml = ..\..\XM_SUICC_BACK_NOTIFICACIONES\k8s-notifications-worker\service.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88D2CCFC-B2AA-4FAC-80E7-A400B411E873}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88D2CCFC-B2AA-4FAC-80E7-A400B411E873}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88D2CCFC-B2AA-4FAC-80E7-A400B411E873}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88D2CCFC-B2AA-4FAC-80E7-A400B411E873}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCA063BA-859B-4B7B-B914-71E89EDAB88C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCA063BA-859B-4B7B-B914-71E89EDAB88C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCA063BA-859B-4B7B-B914-71E89EDAB88C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCA063BA-859B-4B7B-B914-71E89EDAB88C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{208DAD1A-66C8-4DDF-A637-C8912BED03C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{208DAD1A-66C8-4DDF-A637-C8912BED03C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{208DAD1A-66C8-4DDF-A637-C8912BED03C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{208DAD1A-66C8-4DDF-A637-C8912BED03C3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1AB374D7-6710-4ADF-919A-1A18E96CC074}
+	EndGlobalSection
+EndGlobal
